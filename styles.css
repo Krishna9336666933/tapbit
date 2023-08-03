@@ -1,0 +1,400 @@
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  margin: 0;
+  background-color: #141424;
+  font-family: Arial, sans-serif;
+  color: #ffffff;
+}
+
+.header {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 70px;
+  background-color: #141424;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  font-size: 24px;
+  font-weight: bold;
+  padding: 0 20px;
+}
+
+.logo-section {
+  display: flex;
+  align-items: center;
+}
+
+
+
+
+
+
+.blue
+{
+  color: #007bff;
+}
+
+.inline
+{
+  display: inline;
+}
+
+
+
+
+
+.logo {
+  max-height: 50px;
+  margin-right: 20px;
+}
+
+.dropdown {
+  position: relative;
+  display: inline-block;
+}
+
+.dropbtn {
+  background-color: #141424;
+  color: #ffffff;
+  border: none;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #141424;
+  min-width: 160px;
+  z-index: 1;
+}
+
+.dropdown-content a {
+  color: #ffffff;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+}
+
+.dropdown-content a:hover {
+  background-color: #0073b1;
+}
+
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+
+.app-section {
+  display: flex;
+  align-items: center;
+  margin-left: 150px;
+}
+
+.app-heading {
+  margin-right: 10px;
+}
+
+.logo-space {
+  width: 30px;
+  height: 30px;
+  background-color: #0073b1;
+  margin-right: 5px;
+}
+
+.container {
+  max-width: 500px;
+  padding: 20px;
+  margin-top: 70px;
+  background-color: #ffffff;
+  border: 1px solid #ddd;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+
+}
+
+.popup-box {
+  background-color: #ffffff;
+  padding: 30px;
+  border-radius: 20px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  display: flex;
+  justify-content: left;
+  width: 900px; /* Increase the width to 90% */
+  height: 300px;
+}
+
+.popup-content {
+  flex: 1;
+}
+
+.qr-login {
+  flex: 1;
+  background-color: #f6f6f6;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+h2 {
+  margin-top: 0;
+  font-size: 16px;
+  color: #333333;
+}
+
+
+
+
+
+
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background-color: #ffffff;
+}
+
+.login-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #ffffff;
+  border-radius: 20px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+  padding: 40px;
+}
+
+.login-form {
+  flex: 1;
+  padding-right: 30px;
+}
+
+.login-form h2 {
+  margin-bottom: 20px;
+}
+
+.form-group {
+  margin-bottom: 20px;
+}
+
+.form-group label {
+  display: block;
+  font-weight: bold;
+}
+
+.form-group input {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+button {
+  width: 100%;
+  padding: 12px;
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+button:hover {
+  background-color: #0056b3;
+}
+
+.qr-code {
+  flex: 1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-left: 30px;
+}
+
+.qr-code img {
+  max-width: 100%;
+  height: auto;
+}
+
+
+
+
+
+
+
+
+input {
+  width: 200px;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  margin-bottom: 10px;
+}
+
+
+
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  margin: 0;
+  background-image: url('background.png'); /* Replace 'your-background-image.jpg' with the path to your image */
+  background-size: cover;
+  background-position: center;
+  font-family: Arial, sans-serif;
+  color: #ffffff;
+}
+
+
+
+.error-heading {
+  font-size: 20px;
+  font-weight: bold;
+  margin-bottom: 20px;
+}
+
+.error-title {
+  font-size: 12px;
+  font-weight: bold;
+  color: #ff0000;
+  margin-bottom: 5px;
+}
+
+
+
+
+.error-message {
+  font-size: 12px;
+  color: #ff0000;
+  margin-bottom: 20px;
+}
+
+
+
+
+.login-text {
+  font-size: 24px;
+  font-weight: bold;
+  color: #000000;
+}
+
+.tapbit-text {
+  color: #0073b1;
+}
+
+.input-container {
+  width: 100%;
+  max-width: 300px;
+  margin-top: 30px;
+}
+
+
+/* For mobile */
+@media (max-width: 720px) {
+  .headerimg {
+    background-image: url("mobilehead.png");
+    height: 50px;
+    width: 100%;
+    background-size: cover;
+  }
+}
+
+/* For PC */
+@media (min-width: 721px) {
+  .headerimg {
+    background-image: url("head.png");
+    height: 50px;
+    width: 100%;
+    background-size: cover;
+    
+  }
+}
+
+
+.login-button {
+  width: 100%;
+  background-color: #0073b1;
+  color: #ffffff;
+  border: none;
+  padding: 10px;
+  font-size: 16px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.right-container {
+  flex: 1;
+
+  padding-left: 40px;
+  /* Add styles for QR code image or integration */
+}
+
+.headerimg
+{
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 70px;
+}
+
+.footer {
+  margin-top: 20px;
+  color: #888888;
+  font-size: 14px;
+}
+
+
+/* Existing CSS styles as before */
+
+.popup-box {
+  background-color: #ffffff;
+  padding: 30px;
+  border-radius: 20px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 90%;
+  margin: auto;
+}
+
+.login-text {
+  margin-top: 0;
+  font-size: 24px;
+  color: #0073b1;
+  margin-bottom: 20px;
+}
+
+.login-form {
+  background-color: #ffffff;
+  border-radius: 10px;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
+  padding: 20px;
+  width: 300px;
+}
+
+.popup-content {
+  flex: 1;
+  width: 100%;
+}
+
+input {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 10px;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+}
